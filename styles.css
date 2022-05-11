@@ -1,0 +1,152 @@
+/* Text Styles */
+p{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1D1D20;
+}
+a{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #39A2AE;
+}
+h2{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+h1{
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+.TextStyles ul{
+    list-style: square;
+}
+
+/* Main */
+body{
+    background-color: #FFFAFF;
+    border: 1px solid #093824;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav{
+    background-color: #093824;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+nav a{
+    color: #FFFAFF;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #093824;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+nav a:hover{
+    color: #093824;
+    font-weight: 400;
+    background-color: #FFFAFF;
+}
+nav a.activeNav{
+    border: 1px dashed #39A2AE;
+}
+nav a.activeNav:hover{
+    color: #FFFAFF;
+    font-weight: 700;
+    background-color: #093824;
+}
+hr{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* Colors */
+.ColorName{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+table{
+    margin-bottom: 50px;
+}
+.ColorDiv td{
+    padding: 20px;
+}
+td.ColorCode{
+    width: 200px;
+    font-size: 12px;
+}
+td.ColorUsage{
+    border-left: 2px solid rgba(29, 29, 29, 0.5);
+    padding-left: 20px;
+    text-align: justify;
+    vertical-align: text-top;
+    margin-left: 10px;
+}
+
+.Color1{
+    background-color: #093824;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.Color2{
+    background-color: #FFFAFF;
+    border: 1px solid #1D1D20;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.Color3{
+    background-color: #1D1D20;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.Color4{
+    background-color: #39A2AE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.Color5{
+    background-color: #96031A;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Fonts */
+
+.FontRoboto{
+    font-family: Roboto, sans-serif;
+}
+.FontLora{
+    font-family: Lora, serif;
+}
+.FontRedHatDisplay{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.FontNormal{
+    font-weight: 400;
+}
+.FontBold{
+    font-weight: 700;
+}
+.FontItalic{
+    font-style: italic;
+}
